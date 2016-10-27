@@ -1,0 +1,14 @@
+<div class="better-lists">
+<h2>Better Lists</h2>
+
+{{! BEGIN-SNIPPET better-list }}
+{{input value=nextNumber}}<button {{action "insert"}}>Insert</button>
+{{#animated-container as |c|}}
+  {{#animated-each numbers notify=c as |number|}}
+    <div class="numbox" {{action "remove" number}}>{{number}}</div>
+  {{/animated-each}}
+{{/animated-container}}
+{{! END-SNIPPET }}
+
+{{code-snippet name="better-list.hbs"}}
+</div>

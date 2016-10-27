@@ -10,7 +10,11 @@ const slides = [
   "Dom Trouble2",
   "Decomposition",
   "Decomposition2",
-  "Tagless Alone"
+  "Tagless Alone",
+  "Deep Outlet",
+  "Deep Outlet2",
+  "Lists",
+  "Lists2"
 ];
 
 const Slide = Ember.Object.extend({

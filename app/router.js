@@ -13,6 +13,10 @@ Router.map(function() {
       this.route(slide.get('route'));
     }
   });
+
+  this.route('easy-start', function() {
+    this.route('detail');
+  });
 });
 
 export default Router;

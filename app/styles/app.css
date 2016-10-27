@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.easy-start .liquid-container {
+    border: 1px solid black;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #ffe69b;
+    border: 1px solid #e6ce85;
+    color: #693169;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    transition: transform, background-color;
+    transition-duration: 250ms;
+}
+button:hover {
+    transform: scale(1.05);
+    background-color: darken(#ffe69b, 15%);
+}
+
+.easy-if .liquid-container {
+    border: 1px solid black;
+}
+
+.local-rules .liquid-container {
+    border: 1px solid black;
+}

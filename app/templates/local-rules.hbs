@@ -1,0 +1,12 @@
+<div class="local-rules">
+  {{!- BEGIN-SNIPPET local-rules  }}
+  <button {{action "toggleActivated"}}>Toggle</button>
+  {{#liquid-if activated rules=myRules}}
+    <h1>Activated!</h1>
+  {{else}}
+    <div>Not activated</div>
+  {{/liquid-if}}
+  {{!- END-SNIPPET }}
+  {{code-snippet name="local-rules.hbs"}}
+  {{code-snippet name="local-rules.js"}}
+</div>

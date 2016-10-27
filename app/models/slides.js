@@ -2,9 +2,14 @@ import Ember from 'ember';
 
 const slides = [
   "Title Slide",
-  "Not This Kind",
-  "Physical Metaphors"
-
+  "Liquid Fire Github",
+  { title: "Easy Start", autoRoute: false },
+  "Easy If",
+  "Local Rules",
+  "Dom Trouble",
+  "Dom Trouble2",
+  "Decomposition",
+  "Decomposition2"
 ];
 
 const Slide = Ember.Object.extend({

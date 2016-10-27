@@ -42,6 +42,7 @@
     "loader.js": "^4.0.10"
   },
   "dependencies": {
-    "ember-code-snippet": "^1.8.0"
+    "ember-code-snippet": "^1.8.0",
+    "ember-concurrency": "^0.7.15"
   }
 }

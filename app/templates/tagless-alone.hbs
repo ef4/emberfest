@@ -1,0 +1,12 @@
+<div class="tagless-alone">
+  <h2>Many Uses Need No Container</h2>
+  <button {{action "toggleActivated"}}>Toggle</button>
+  <div class="outer">
+    <div class="left">Left</div>
+    {{#liquid-if activated containerless=true use="flex-grow"}}
+      Right
+    {{/liquid-if}}
+  </div>
+</div>
+{{code-snippet name="tagless-flex.css"}}
+{{code-snippet name="tagless-flex.hbs"}}

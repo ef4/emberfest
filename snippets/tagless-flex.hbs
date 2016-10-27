@@ -1,0 +1,7 @@
+<button {{action "toggleActivated"}}>Toggle</button>
+<div class="outer">
+  <div class="left">Left</div>
+  {{#animated-if activated use="flex-grow"}}
+    <div class="right">Right</div>
+  {{/animated-if}}
+</div>

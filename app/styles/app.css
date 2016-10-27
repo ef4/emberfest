@@ -36,3 +36,19 @@ button:hover {
 .local-rules .liquid-container {
     border: 1px solid black;
 }
+
+
+.tagless-alone .outer {
+    display: flex;
+    color: white;
+}
+
+.tagless-alone .left {
+    min-height: 4em;
+    flex: 1;
+    background-color: #36926d;
+}
+
+.tagless-alone .liquid-child {
+    background-color: #92368a;
+}

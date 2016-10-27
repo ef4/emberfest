@@ -1,0 +1,27 @@
+<h2>Escaping the Component</h2>
+
+<div class="two-lists">
+  {{!- BEGIN-SNIPPET two-lists }}
+  {{#animated-container as |c|}}
+    {{#animated-each leftItems notify=c as |item|}}
+      <div>
+        {{item.id}}
+        <button {{action "moveRight" item}}>&rarr;</button>
+      </div>
+    {{/animated-each}}
+  {{/animated-container}}
+
+  {{#animated-container as |c|}}
+    {{#animated-each rightItems notify=c as |item|}}
+      <div>
+        <button {{action "moveLeft" item}}>&larr;</button>
+        {{item.id}}
+      </div>
+    {{/animated-each}}
+  {{/animated-container}}
+  {{! END-SNIPPET }}
+</div>
+
+<div style="clear:both"></div>
+
+{{code-snippet name="two-lists.hbs"}}

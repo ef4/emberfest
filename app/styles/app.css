@@ -62,6 +62,11 @@ input[type=text] {
     font-size: 20px;
 }
 
-.better-lists {
+.better-lists, .route-escape, .two-lists {
     position: relative;
+}
+
+.two-lists > .animated-container {
+    width:40%;
+    float: left;
 }

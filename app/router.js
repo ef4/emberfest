@@ -17,6 +17,11 @@ Router.map(function() {
   this.route('easy-start', function() {
     this.route('detail');
   });
+
+  this.route('route-escape', function() {
+    this.route('secondary');
+  });
+
 });
 
 export default Router;

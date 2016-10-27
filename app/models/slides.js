@@ -14,7 +14,9 @@ const slides = [
   "Deep Outlet",
   "Deep Outlet2",
   "Lists",
-  "Lists2"
+  "Lists2",
+  "Two Lists",
+  { title: "Route Escape", autoRoute: false }
 ];
 
 const Slide = Ember.Object.extend({

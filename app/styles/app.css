@@ -72,15 +72,14 @@ input[type=text] {
 }
 
 .number-area {
-    width: 20em;
     margin-top: 10px;
 }
 
 .numbox {
+    width: 3em;
     padding: 4px;
     margin-bottom: 4px;
     margin-right: 4px;
-    display: inline-block;
     border: 1px solid grey;
     background-color: white;
 }

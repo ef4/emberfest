@@ -5,9 +5,9 @@ function rules() {
   this.transition(
     this.use('explode', {
       matchBy: 'data-id',
-      use: 'fly-to'
+      use: ['fly-to', { duration: 1000 }]
     }, {
-      use: 'to-up'
+      use: ['swap-out', 'x', -1, { duration : 1000 }]
     })
   );
 }

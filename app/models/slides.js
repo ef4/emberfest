@@ -16,7 +16,14 @@ const slides = [
   "Lists",
   "Lists2",
   "Two Lists",
-  { title: "Route Escape", autoRoute: false }
+  { title: "Route Escape", autoRoute: false },
+  "Far Matching",
+  "Transition Primitive",
+  "Motion Primitive",
+  "Transition Primitive2",
+  "Interruptions",
+  "Better Primitives",
+  "Shipping"
 ];
 
 const Slide = Ember.Object.extend({

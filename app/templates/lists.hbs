@@ -1,7 +1,7 @@
 <h2>Lists</h2>
 
 {{! BEGIN-SNIPPET awkward-list }}
-{{input value=nextNumber}}<button {{action "insert"}}>Insert</button>
+{{input value=nextNumber enter=(action "insert")}}<button {{action "insert"}}>Insert</button>
 {{#liquid-bind numbers rules=rules as |currentNumbers|}}
   <div class="number-area">
     {{#each currentNumbers as |number|}}
